@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main h-screen w-full bg-black text-white px-[10%] py-[2%]">
+      <div class="nav flex items-center justify-between">
+        <div class="n-left flex items-center gap-6">
+          <div class="logo flex gap-1">
+            <div class="h-9 w-[13px] bg-[#A69BF9] rounded-full rotate-45"></div>
+            <div
+              class="h-9 w-[13px] bg-white rounded-full rotate-[-45deg]"
+            ></div>
+          </div>
+          <h1 class="font-sans-serif text-xl">Logo name</h1>
+        </div>
+        <div class="n-right flex items-center gap-8">
+          <button class="font-sans-serif">Sign up</button>
+          <button
+            class="bg-white text-black hover:bg-zinc-300 transition-all duration-300 px-6 py-2 rounded-full font-sans-serif font-medium"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+      <p class="mono my-6 text-white text-sm">
+        Let's start a conversation! Fill out our contact form, <br />
+        and we'll get back to you as soon as possible.
+      </p>
+      <div
+        class="form leading-[1.1] flex flex-col h-[75vh] justify-between pb-2 font-sans-serif"
+      >
+        <h1 class="text-[4.15vw]">Hello👋</h1>
+        <h1 class="text-[4.15vw] w-full flex items-center text-nowrap gap-8">
+          My name is
+          <span class="w-full h-[4.15vw] flex items-center justify-center"
+            ><input
+              type="text"
+              placeholder="Enter your name"
+              class="mono focus:outline-none focus:border-b-zinc-200 p-4 text-base bg-transparent w-full border-b-[1px] border-b-zinc-500"
+          /></span>
+        </h1>
+        <h1 class="text-[4.15vw] w-full flex items-center text-nowrap gap-8">
+          I'm from
+          <span class="w-full h-[4.15vw] flex items-center justify-center"
+            ><input
+              type="text"
+              placeholder="Enter your company name"
+              class="mono focus:outline-none focus:border-b-zinc-200 p-4 text-base bg-transparent w-full border-b-[1px] border-b-zinc-500"
+          /></span>
+        </h1>
+        <h1 class="text-[4.15vw] w-full flex items-center text-nowrap gap-8">
+          Here is my email
+          <span class="w-full h-[4.15vw] flex items-center justify-center"
+            ><input
+              type="email"
+              placeholder="Enter your email"
+              class="mono focus:outline-none focus:border-b-zinc-200 p-4 text-base bg-transparent w-full border-b-[1px] border-b-zinc-500"
+          /></span>
+        </h1>
+        <h1 class="text-[4.15vw] w-full flex items-center text-nowrap gap-8">
+          And message
+          <span class="w-full h-[4.15vw] flex items-center justify-center"
+            ><input
+              type="text"
+              placeholder="Enter your message"
+              class="mono focus:outline-none focus:border-b-zinc-200 p-4 text-base bg-transparent w-full border-b-[1px] border-b-zinc-500"
+          /></span>
+        </h1>
+        <div
+          class="w-full cursor-pointer mt-3 btn bg-[#A69BF9] text-black font-sans-serif font-medium rounded-full text-[4.15vw] flex items-center justify-between px-3 pl-11 py-2 hover:bg-white transition-all duration-300"
+        >
+          <h1>Submit</h1>
+          <div
+            class="h-full w-[5.5vw] bg-black rounded-full flex items-center p-2 justify-center"
+          >
+            <div
+              class="w-[13px] h-[90%] rotate-45 line rounded-full transition-all duration-300 bg-[#A69BF9]"
+            >
+              <p class="opacity-0">.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
